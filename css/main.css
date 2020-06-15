@@ -40,7 +40,6 @@ h1#site-title {
 .main-nav ul {
     list-style-type: none;
     white-space: nowrap;
-    float: right;
     padding-left: 0;
 }
 
