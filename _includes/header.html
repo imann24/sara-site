@@ -1,0 +1,11 @@
+<a href="/"><h1 id="site-title">{{ site.title }}</h1></a>
+<nav class="main-nav">
+    <ul>
+        {% for link in site.data.navigation.links %}
+            <a href="{{link.url}}">
+                <li>{{link.title}}</li>
+            </a>
+        {% endfor %}
+    </ul>
+</nav>
+<div class="spacer"></div>

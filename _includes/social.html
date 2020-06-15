@@ -1,0 +1,11 @@
+<div id="social-links">
+    <ul>
+        {% for site in site.data.social.sites %}
+            <li>
+                <a href="{{ site.url }}">
+                    <img src="/assets/{{ site.icon }}">
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

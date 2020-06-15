@@ -1,0 +1,65 @@
+body {
+    font-family: 'Indie Flower', cursive;
+}
+
+h1#site-title {
+    width: 20vw;
+    font-size: 2.5vw;
+    margin-top: 0.25em;
+    margin-left: 1em;
+    margin-right: 0;
+    float: left;
+}
+
+#social-links {
+    position: absolute;
+    width: 7.5em;
+    margin: 0;
+    top: 11.5vh;
+}
+
+#social-links li {
+    list-style-type: none;
+    margin: 0.25em;
+}
+
+#social-links img {
+    width: 5em;
+    border-radius: 1em;
+    border: 0.25em solid #0000A0;
+}
+
+#social-links img:hover {
+    border: 0.25em solid #9696ff;
+}
+
+#content {
+    margin-left: 10em;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    white-space: nowrap;
+    float: right;
+    padding-left: 0;
+}
+
+.main-nav li {
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 0.5em;
+    font-size: 1.5vw;
+    width: 9vw;
+    margin: 1vw;
+    float: left;
+    padding: 1vh;
+}
+
+.main-nav li:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.spacer {
+    width: 100%;
+    height: 5em;
+}

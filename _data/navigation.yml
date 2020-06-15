@@ -1,0 +1,21 @@
+links:
+    - title: Home
+      url: /
+
+    - title: Contact
+      url: /contact
+
+    - title: Illustration
+      url: /illustration
+
+    - title: Comics
+      url: /comics
+
+    - title: Writing
+      url: /writing
+
+    - title: Shop
+      url: https://gumroad.com/1_saraluna
+
+    - title: About Me
+      url: /about

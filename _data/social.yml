@@ -1,0 +1,20 @@
+sites:
+    - name: twitter
+      url: "https://twitter.com/1_saraluna"
+      icon: "twitter.png"
+
+    - name: patreon
+      url: "https://www.patreon.com/saraluna"
+      icon: "patreon.png"
+
+    - name: gumroad
+      url: "https://gumroad.com/1_saraluna"
+      icon: "gumroad.jpg"
+
+    - name: kofi
+      url: "https://ko-fi.com/sarajewell"
+      icon: "kofi.png"
+
+    - name: tumblr
+      url: "https://saraljewell.tumblr.com/"
+      icon: "tumblr.png"

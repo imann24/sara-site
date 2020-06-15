@@ -1,0 +1,25 @@
+{% assign page_html = page.page_name | append: ".html" %}
+{% assign page_css = "/css/" | append: page.page_name | append: ".css" %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.html %}
+
+        {% if page.page_name %}
+            <link rel="stylesheet" href="{{ page_css }}">
+        {% endif %}
+    </head>
+
+    <body>
+        {% include header.html %}
+
+        {% include social.html %}
+
+        {% if page.page_name %}
+            <div id="content">
+                {% include {{ page_html }} %}
+            </div>
+        {% endif %}
+    </body>
+</html>

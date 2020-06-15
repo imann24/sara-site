@@ -1,0 +1,6 @@
+---
+permalink: /404.html
+---
+{{ site.name }}
+
+Page not found
